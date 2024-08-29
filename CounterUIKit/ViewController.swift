@@ -11,23 +11,25 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var number: UILabel!
     
+    var currentNumber: Int = 10
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        number.text = "10"
+        number.text = "\(currentNumber)"
         
         
     }
 
     @IBAction func incrementButton(_ sender: Any) {
         
-        guard let currentNumStr = number?.text, let currentNumber = Int(currentNumStr) else { return }
-        number?.text = String(currentNumber + 1)
+        currentNumber += 1
+        number.text = "\(currentNumber)"
     }
     
     @IBAction func decrementButton(_ sender: Any) {
         
-        guard let currentNumStr = number?.text, let currentNumber = Int(currentNumStr) else { return }
-        number?.text = String(currentNumber - 1)
+        currentNumber -= 1
+        number.text = "\(currentNumber)"
     }
 }
 
