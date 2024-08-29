@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9494DC92C81196D00AE28A3 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9494DC82C81196D00AE28A3 /* PostTableViewCell.swift */; };
+		C9494DCB2C811B2500AE28A3 /* PostTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9494DCA2C811B2500AE28A3 /* PostTableVC.swift */; };
 		C9C7193F2C80D23D00BFA5D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7193E2C80D23D00BFA5D2 /* AppDelegate.swift */; };
 		C9C719412C80D23D00BFA5D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C719402C80D23D00BFA5D2 /* SceneDelegate.swift */; };
 		C9C719432C80D23D00BFA5D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C719422C80D23D00BFA5D2 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9494DC82C81196D00AE28A3 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		C9494DCA2C811B2500AE28A3 /* PostTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableVC.swift; sourceTree = "<group>"; };
 		C9C7193B2C80D23D00BFA5D2 /* CounterUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C7193E2C80D23D00BFA5D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C719402C80D23D00BFA5D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				C9C719492C80D23E00BFA5D2 /* LaunchScreen.storyboard */,
 				C9C7194C2C80D23E00BFA5D2 /* Info.plist */,
 				C9C719522C80FFDE00BFA5D2 /* TableViewVC.swift */,
+				C9494DCA2C811B2500AE28A3 /* PostTableVC.swift */,
+				C9494DC82C81196D00AE28A3 /* PostTableViewCell.swift */,
 			);
 			path = CounterUIKit;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			files = (
 				C9C719532C80FFDE00BFA5D2 /* TableViewVC.swift in Sources */,
 				C9C719432C80D23D00BFA5D2 /* ViewController.swift in Sources */,
+				C9494DC92C81196D00AE28A3 /* PostTableViewCell.swift in Sources */,
+				C9494DCB2C811B2500AE28A3 /* PostTableVC.swift in Sources */,
 				C9C7193F2C80D23D00BFA5D2 /* AppDelegate.swift in Sources */,
 				C9C719412C80D23D00BFA5D2 /* SceneDelegate.swift in Sources */,
 			);
