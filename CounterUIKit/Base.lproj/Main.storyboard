@@ -54,6 +54,14 @@
                                     <segue destination="0k1-fV-ADi" kind="push" id="WMM-c3-PqU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6t9-WN-xmI">
+                                <rect key="frame" x="90.666666666666686" y="489" width="212" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Set your desired number"/>
+                                <connections>
+                                    <action selector="setNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJT-Ob-5hN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -68,12 +76,14 @@
                             <constraint firstItem="ZbV-uk-Qqp" firstAttribute="top" secondItem="b1T-66-vFz" secondAttribute="bottom" constant="186.33333333333331" id="Kmw-du-HbO"/>
                             <constraint firstItem="n9R-6g-er6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LJs-Ya-7LI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EnN-1f-RoL" secondAttribute="trailing" constant="20" id="QJV-CP-Ypp"/>
+                            <constraint firstItem="6t9-WN-xmI" firstAttribute="top" secondItem="b1T-66-vFz" secondAttribute="bottom" constant="7.3333333333333144" id="Qxw-pP-mS2"/>
                             <constraint firstItem="b1T-66-vFz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rey-5T-iTt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DGb-KU-FVL" secondAttribute="trailing" constant="20" id="ZGD-pE-MjX"/>
                             <constraint firstItem="EnN-1f-RoL" firstAttribute="top" secondItem="ZbV-uk-Qqp" secondAttribute="bottom" constant="8" symbolic="YES" id="blY-HL-r0Y"/>
                             <constraint firstItem="DGb-KU-FVL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="edq-EJ-ha6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b1T-66-vFz" secondAttribute="trailing" constant="20" id="ezw-YV-10M"/>
                             <constraint firstItem="n9R-6g-er6" firstAttribute="top" secondItem="DGb-KU-FVL" secondAttribute="bottom" constant="160" id="foW-Ed-rRp"/>
+                            <constraint firstItem="6t9-WN-xmI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jPL-DK-AKf"/>
                             <constraint firstItem="DGb-KU-FVL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nFt-Hg-YIf"/>
                             <constraint firstItem="EnN-1f-RoL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nvG-8s-KQL"/>
                         </constraints>
